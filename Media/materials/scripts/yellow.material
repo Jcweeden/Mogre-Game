@@ -1,0 +1,28 @@
+material yellow
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture yellow.png
+			}
+		}
+	}
+}
+
+material yellow
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture yellow.png
+			}
+		}
+	}
+}

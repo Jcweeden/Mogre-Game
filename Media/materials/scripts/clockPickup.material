@@ -1,0 +1,16 @@
+material clockPickup
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				copper.jpg
+				
+           	}
+		}
+
+	}
+
+}

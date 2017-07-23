@@ -1,0 +1,28 @@
+material blue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture blue.png
+			}
+		}
+	}
+}
+
+material blue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture blue.png
+			}
+		}
+	}
+}

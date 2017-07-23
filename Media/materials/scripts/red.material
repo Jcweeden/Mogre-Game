@@ -1,0 +1,28 @@
+material Red
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture red.png
+			}
+		}
+	}
+}
+
+material red
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			texture_unit
+			{
+				texture red.png
+			}
+		}
+	}
+}

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDBBE75A-62AB-4416-ACC8-E493E9D0FD17}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tutorial</RootNamespace>
+    <AssemblyName>Tutorial</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AbstractClasses\CharacterClasses\Character.cs" />
+    <Compile Include="AbstractClasses\CharacterClasses\CharacterController.cs" />
+    <Compile Include="AbstractClasses\CharacterClasses\CharacterModel.cs" />
+    <Compile Include="AbstractClasses\CharacterClasses\CharacterStats.cs" />
+    <Compile Include="AbstractClasses\GameElement.cs" />
+    <Compile Include="AbstractClasses\HMD.cs" />
+    <Compile Include="AbstractClasses\MovableElement.cs" />
+    <Compile Include="AbstractClasses\Stat.cs" />
+    <Compile Include="Armoury.cs" />
+    <Compile Include="Bomb.cs" />
+    <Compile Include="BombDropper.cs" />
+    <Compile Include="Cannon.cs" />
+    <Compile Include="Cannonball.cs" />
+    <Compile Include="CollectableGun.cs" />
+    <Compile Include="Collectables\BlueGem.cs" />
+    <Compile Include="Collectables\Collectable.cs" />
+    <Compile Include="Collectables\Gem.cs" />
+    <Compile Include="Collectables\HealthPickUp.cs" />
+    <Compile Include="Collectables\LifePickUp.cs" />
+    <Compile Include="Collectables\PowerUp.cs" />
+    <Compile Include="Collectables\RedGem.cs" />
+    <Compile Include="Collectables\ShieldPickUp.cs" />
+    <Compile Include="Collectables\TimePickUp.cs" />
+    <Compile Include="Collectables\YellowGem.cs" />
+    <Compile Include="EnemyController.cs" />
+    <Compile Include="EnemyProjectile.cs" />
+    <Compile Include="EnemyStats.cs" />
+    <Compile Include="Environment.cs" />
+    <Compile Include="GameInterface.cs" />
+    <Compile Include="Ground.cs" />
+    <Compile Include="Gun.cs" />
+    <Compile Include="InputsManager.cs" />
+    <Compile Include="ModelElement.cs" />
+    <Compile Include="PhysicsEngine2\Contacts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\ElasticForce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\Force.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\FrictionForce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\Physics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\PhysObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhysicsEngine2\WeightForce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerController.cs" />
+    <Compile Include="PlayerModel.cs" />
+    <Compile Include="PlayerStats.cs" />
+    <Compile Include="Projectile.cs" />
+    <Compile Include="Robot.cs" />
+    <Compile Include="RobotModel.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Tutorial.cs" />
+    <Compile Include="Wall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mogre, Version=1.7.1.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Mogre.dll</HintPath>
+    </Reference>
+    <Reference Include="Mogre.TutorialFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Mogre.TutorialFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MOIS, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MOIS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

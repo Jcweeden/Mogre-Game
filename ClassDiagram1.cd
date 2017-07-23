@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RaceGame.Character">
+    <Position X="32.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAQAYAABAEgAAAAEAAAEBAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>AbstractClasses\CharacterClasses\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.CharacterController">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQoggKEAIAChAIAAAACAAABAAAIAQAACECAAgBAgAI=</HashCode>
+      <FileName>AbstractClasses\CharacterClasses\CharacterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.CharacterModel">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACIAAAAAAAABAAAAAAAIAAQACAAAAgAgAAI=</HashCode>
+      <FileName>AbstractClasses\CharacterClasses\CharacterModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.CharacterStats">
+    <Position X="31.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAEAAAABAAAAAAAAAAIAAAACAAgAAAAAAAg=</HashCode>
+      <FileName>AbstractClasses\CharacterClasses\CharacterStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.GameElement">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAARCAAAAQIAAAAAAAAAAAAQgAAAEAAAAAAAAA=</HashCode>
+      <FileName>AbstractClasses\GameElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.HMD">
+    <Position X="26.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAgAAgACAAAAAIAAAAABQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractClasses\HMD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.MovableElement">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAEAAAQAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractClasses\MovableElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Stat">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABABBAAAAAAAABAAAAABACAAAAAgAAAAAAA=</HashCode>
+      <FileName>AbstractClasses\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Armoury">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAMQAACBIAAQCAAAAAIAAAACAAAACA=</HashCode>
+      <FileName>Armoury.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Bomb">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAhAAAAKAAAAAAAAAABAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.BombDropper">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAYBAAAIAAAAAAAEAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>BombDropper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Cannon">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAYAAAAIAAAAAAAEAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Cannon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Cannonball">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggACAKAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAA=</HashCode>
+      <FileName>Cannonball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.CollectableGun">
+    <Position X="12.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAABABAAAAAAAAAAQAAQAAAAAAAQAABAEAAAAAAA=</HashCode>
+      <FileName>CollectableGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.BlueGem">
+    <Position X="7.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAAAAQAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\BlueGem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Collectable">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Gem">
+    <Position X="7.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEIAAABAAAAAAAAAYAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\Gem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.HealthPickUp">
+    <Position X="14.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAAAAAAAAAAEAAAAAAAAQAAA=</HashCode>
+      <FileName>Collectables\HealthPickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.LifePickUp">
+    <Position X="16.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAIAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\LifePickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.PowerUp">
+    <Position X="15.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEAAAABAAAAAAAAAYAASQAAAAAgQAAAoAAACAAAA=</HashCode>
+      <FileName>Collectables\PowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.RedGem">
+    <Position X="5.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAAAAQAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\RedGem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.ShieldPickUp">
+    <Position X="19" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\ShieldPickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.TimePickUp">
+    <Position X="19" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\TimePickUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.YellowGem">
+    <Position X="10" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAIAAAAAQAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collectables\YellowGem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.EnemyController">
+    <Position X="38.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.EnemyProjectile">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAgAAAAKIAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAA=</HashCode>
+      <FileName>EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.EnemyStats">
+    <Position X="30" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>EnemyStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Environment">
+    <Position X="4.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IggQoAAAACAAAAAIAAAAAAAAAAIQAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Environment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.GameInterface">
+    <Position X="29.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQRgAQBACAihwAAAAAIEAQgAQIAwQggAgAAAQCQC0A=</HashCode>
+      <FileName>GameInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Ground">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAASCAAIAYAAAAAAEEQAAAAhAAAAAAICAAABA=</HashCode>
+      <FileName>Ground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Gun">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAoAAAAAAAAAAYAAAAIAAAACAAEAAAAAAAAAAAgIAA=</HashCode>
+      <FileName>Gun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.InputsManager">
+    <Position X="36.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAEAAAAAAAAAAAEEAABgAAAAYABAABAAAAA=</HashCode>
+      <FileName>InputsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.ModelElement">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Player">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAgAAQBAAABAAAAAAAAQAAAAEAQAAAAABEAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.PlayerController">
+    <Position X="36.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.PlayerModel">
+    <Position X="24.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAEQAIAAAAAAAQBAgAAAAAAAAQAYAgAAAAgAAA=</HashCode>
+      <FileName>PlayerModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.PlayerStats">
+    <Position X="32.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>PlayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Projectile">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAwAAAAKAAAAAAAAAAAAAAAAIAAQAAQAAAAAAAAEI=</HashCode>
+      <FileName>Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Robot">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAhAgAAKAAAAgIAAAJAAAAASEAIAABCAgAAQAMAAA=</HashCode>
+      <FileName>Robot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.RobotModel">
+    <Position X="26.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAABAAAECAoAIgAiAAwBCwQAAAAAAAQBQggAAABgAAQ=</HashCode>
+      <FileName>RobotModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Score">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Level">
+    <Position X="22.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABCAAAAADAgAUABQQAAAAAwEAAIoBAJAAFEAAIAA=</HashCode>
+      <FileName>Tutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceGame.Wall">
+    <Position X="2.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAIAAgIAAAAAAAAAAAAAAIAAAAAAEAAIAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.Contacts" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>PhysicsEngine2\Contacts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.ElasticForce">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAIAABAAAAAABAAAAAAAEUgAAAEABAABA=</HashCode>
+      <FileName>PhysicsEngine2\ElasticForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.Force">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAAAAAAAAAAAADAAAAAAAAAABAAAA=</HashCode>
+      <FileName>PhysicsEngine2\Force.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.FrictionForce">
+    <Position X="21.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIIAAAAAAAAgAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>PhysicsEngine2\FrictionForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.Physics" Collapsed="true">
+    <Position X="21.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBBAAAAAKScAAAIAAAgIJEIAAAgAAIAABQAAACAAAA=</HashCode>
+      <FileName>PhysicsEngine2\Physics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.PhysObj" Collapsed="true">
+    <Position X="23.5" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="PhysicsEng.PhysObj.CollisionReaction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PhysicsEngine2\PhysObj.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgIRBAICAAAxBAgAAAANxAgBBGAQAAQEEQEAEAEEgQ=</HashCode>
+      <FileName>PhysicsEngine2\PhysObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsEng.WeightForce">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAABAAAA=</HashCode>
+      <FileName>PhysicsEngine2\WeightForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

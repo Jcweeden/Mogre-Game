@@ -1,0 +1,107 @@
+GameInterface
+{
+	container Panel(GreenBackground)
+	{
+		material     Core/StatsBlockCenter
+		metrics_mode pixels
+		top          0
+		left         0
+		width        1024
+		height       60
+
+		element Panel(HealthBar)
+		{
+			material     GameInterface/HealthBar
+			metrics_mode pixels
+			top          12
+			left         12
+			width        150
+			height       12
+		}
+		
+		element Panel(ShieldBar)
+		{
+			material     GameInterface/ShieldBar
+			metrics_mode pixels
+			top          24
+			left         12
+			width        150
+			height       12
+		}
+		
+		element TextArea(ScoreText)
+		{
+			metrics_mode  pixels
+			left          512
+			top           6
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        1 1 1
+		}
+		
+		element TextArea(LevelText)
+		{
+			metrics_mode  pixels
+			left          512
+			top           6
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        1 1 1
+		}
+		
+		element TextArea(TimerText)
+		{
+			metrics_mode  pixels
+			left          550
+			top           32
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        1 1 1
+		}
+		
+		element TextArea(TimeRemainingText)
+		{
+			metrics_mode  pixels
+			left          400
+			top           32
+			font_name     BlueHighway
+			char_height   30
+			alignment     center
+			colour        1 1 1
+		}
+		
+		element TextArea(GameWinText)
+		{
+			metrics_mode  pixels
+			left          400
+			top           300
+			font_name     BlueHighway
+			char_height   45
+			alignment     center
+			colour        1 1 1
+		}
+		
+		element TextArea(GunLoadedText)
+		{
+			metrics_mode  pixels
+			left          200
+			top           39
+			font_name     BlueHighway
+			char_height   21
+			colour        1 1 1
+		}
+		
+		element TextArea(BossText)
+		{
+			metrics_mode  pixels
+			left          200
+			top           390
+			font_name     BlueHighway
+			char_height   25
+			colour        1 1 1
+		}
+	}
+}

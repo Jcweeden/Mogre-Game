@@ -1,0 +1,29 @@
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo2\bin\Debug\Tutorial.exe.config
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\bin\Debug\Tutorial.exe.config
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\bin\Debug\Tutorial.exe
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\bin\Debug\Tutorial.pdb
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\bin\Debug\Mogre.xml
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\obj\x86\Debug\Tutorial.csprojResolveAssemblyReference.cache
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\obj\x86\Debug\Tutorial.exe
+C:\Users\Assunta\Google Drive Marco\Labs 2014\Demo4\obj\x86\Debug\Tutorial.pdb
+F:\Google Drive\Labs 2014\Demo4\bin\Debug\Tutorial.exe.config
+F:\Google Drive\Labs 2014\Demo4\obj\x86\Debug\Tutorial.exe
+F:\Google Drive\Labs 2014\Demo4\obj\x86\Debug\Tutorial.pdb
+F:\Google Drive\Labs 2014\Demo4\bin\Debug\Tutorial.exe
+F:\Google Drive\Labs 2014\Demo4\bin\Debug\Tutorial.pdb
+F:\Google Drive\Labs 2014\Demo4\bin\Debug\Mogre.xml
+F:\Google Drive\Labs 2014\Demo4\obj\x86\Debug\Tutorial.csprojResolveAssemblyReference.cache
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.exe.config
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.exe
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.pdb
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.csprojResolveAssemblyReference.cache
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.exe
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.pdb
+\\smbhome.uscs.susx.ac.uk\jcw32\Documents\I3D\Coursework\Demo4\bin\Debug\Mogre.xml
+N:\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.exe.config
+N:\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.exe
+N:\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.pdb
+N:\Documents\I3D\Coursework\Demo4\obj\x86\Debug\Tutorial.csprojResolveAssemblyReference.cache
+N:\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.exe
+N:\Documents\I3D\Coursework\Demo4\bin\Debug\Tutorial.pdb
+N:\Documents\I3D\Coursework\Demo4\bin\Debug\Mogre.xml
